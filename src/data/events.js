@@ -16,7 +16,7 @@ export const events = [
     title: 'HR Consultants Expo',
     location: 'Islamabad',
     image: '/assets/events/hr-consultants-islamabad.jpg',
-    hasPhoto: false,
+    hasPhoto: true,
     caption:
       'Representing the University of Portsmouth and reconnecting with education partners while engaging prospective students and families.',
   },
@@ -25,7 +25,7 @@ export const events = [
     title: 'Study Abroad FEST',
     location: 'Gujranwala',
     image: '/assets/events/fes-gujranwala.jpg',
-    hasPhoto: false,
+    hasPhoto: true,
     caption:
       'Engaging students, counsellors and education partners at a regional study-abroad event.',
   },
@@ -34,7 +34,7 @@ export const events = [
     title: 'Smart Expo',
     location: 'Pakistan',
     image: '/assets/events/smart-expo.jpg',
-    hasPhoto: false,
+    hasPhoto: true,
     caption:
       'University representation and networking with international education professionals and prospective students.',
   },
@@ -43,7 +43,7 @@ export const events = [
     title: 'FES Consultants',
     location: 'Rawalpindi',
     image: '/assets/events/fes-rawalpindi.jpg',
-    hasPhoto: false,
+    hasPhoto: true,
     caption:
       'Participation in a study-abroad event alongside university and education-sector representatives.',
   },
