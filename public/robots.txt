@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maashirsaeed.github.io/aashir-portfolio/sitemap.xml
