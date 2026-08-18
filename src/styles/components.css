@@ -194,12 +194,11 @@
 .header {
   position: sticky;
   top: 0;
-  z-index: 80;
+  z-index: 200;
+  isolation: isolate;
   height: var(--header-h);
   border-bottom: 1px solid transparent;
-  background: rgba(246, 244, 239, 0.94);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: var(--color-bg);
   transition:
     height 0.28s var(--ease),
     background 0.28s var(--ease),
@@ -208,7 +207,7 @@
 
 .header.is-compact {
   height: var(--header-h-compact);
-  background: rgba(246, 244, 239, 0.92);
+  background: var(--color-bg);
   border-bottom-color: var(--color-line);
 }
 
